@@ -50,16 +50,6 @@ cd backend
 npm run seed
 ```
 
-This creates demo accounts:
-
-| Role    | Email                  | Password      |
-|---------|------------------------|---------------|
-| Admin   | admin@college.edu      | Admin@123     |
-| Faculty | rajesh@college.edu     | Faculty@123   |
-| Faculty | priya@college.edu      | Faculty@123   |
-| Student | arjun@student.edu      | Student@123   |
-| Student | sneha@student.edu      | Student@123   |
-
 ### 4. Run the Application
 
 ```bash
@@ -92,7 +82,7 @@ Open `http://localhost:3000`
 
 ### 👨‍🏫 Faculty Features
 - View and manage assigned courses
-- **Mark Attendance**: Select course → date → mark each student (Present/Absent/Late/Excused)
+- **Mark Attendance**: Select course → date → mark each student (Present/Absent)
 - Bulk mark all students
 - Review and approve/reject leave requests
 - Attendance history per course
